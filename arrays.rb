@@ -41,3 +41,11 @@ p first_names[2]
 #position 0 in power_levels is 9000.5
 #position 0 in are_dudes would be the first true, except the added false on code line 28
 #adds another false. So the position 0 would be the first false.
+
+
+#The include mothod is used to see if a specific element is in an array.
+#In this instance, the String "Coop" is included in the Variable first_names.
+
+p first_names.include?("Coop")
+
+#Because "Coop" is included this prints the result true
